@@ -1,0 +1,42 @@
+# Magento 2 specific directories
+/app/etc/config.php
+/app/etc/env.php
+/var/*
+/pub/media/*
+/pub/static/*
+/generated/*
+/vendor/*
+
+# Ignore log files and reports
+*.log
+*.report
+
+# Composer specific files
+composer.lock
+autoload.php
+
+# IDE specific files
+/.idea/
+/.vscode/
+
+# Node.js dependencies
+node_modules/
+/pub/static/frontend/node_modules/
+/pub/static/adminhtml/node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+._*
+
+# Miscellaneous
+*.sql
+*.zip
+*.tar.gz
+*.env
+*.swp
+*.bak
+
+# Temporary and cache files
+/cache/*
+/session/*

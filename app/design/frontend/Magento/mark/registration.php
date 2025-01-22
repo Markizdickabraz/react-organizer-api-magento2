@@ -1,9 +1,9 @@
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 
-use Magento\Framework\Component\ComponentRegistrar;
+use \Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Magento/mark', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Vendor/mark', __DIR__);

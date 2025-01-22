@@ -47,7 +47,7 @@ class GetCustomerTodos implements ResolverInterface
                 'title' => $task->getTitle(),
                 'text' => $task->getText(),
                 'date' => $task->getDate(),
-                'status' => $task->getStatus() ? 'completed' : 'pending'
+                'status' => $task->getStatus(),
             ];
         }
 
